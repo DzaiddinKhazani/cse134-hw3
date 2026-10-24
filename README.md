@@ -1,5 +1,3 @@
-# cse134-hw3
-
 | Field                | Value                                                   |
 | ---------------------|---------------------------------------------------------|
 | Repository URL       | https://www.github.com/DzaiddinKhazani/cse134-hw3       |
