@@ -223,6 +223,10 @@ main > article,
   padding: calc(var(--space) * 1.5);
 }
 
+.intro p{
+  max-width: none;
+}
+
 /* ===== 6. Media ===== */
 img,
 video,
