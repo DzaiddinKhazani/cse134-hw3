@@ -215,7 +215,8 @@ svg {
   text-decoration: none;
 }
 
-main > article {
+main > article,
+.intro {
   background: var(--color-surface);
   border: 1px solid var(--color-accent-soft);
   border-radius: var(--radius);
