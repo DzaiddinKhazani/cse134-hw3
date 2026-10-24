@@ -6,18 +6,14 @@
   <meta name="description" content="A collection of my game and app projects.">
   <title>Projects | Dzaiddin Khazani</title>
   <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
-  <style>
-    /* HW2 rule: borders only, to show base page structure */
-    header, nav, main, section, article, footer {
-      border: 1px solid;
-    }
-  </style>
+  <link rel="stylesheet" href = "part2\css\style.css">
 </head>
+
 <body>
 
 
   <header>
-    <h1><center>Dzaiddin Khazani</center></h1>
+    <h1>Dzaiddin Khazani</h1>
 
     <nav aria-label="Primary">
       <ul>
@@ -42,30 +38,28 @@
       of the projects that I'm proud to say that I worked on!
     </p>
 
-    <article>
-      <a href="fish-game.html">
-        <img src="../images/fish-game-thumb.jpg" alt="Screenshot of Fish Game" width="320" height="180" loading="lazy">
-        <h3>Fish Game</h3>
-      </a>
-      <p>For Tritonware Spring '25, I helped develop a fun physics-based game about catching flying fish.</p>
-    </article>
+    <div class = "card-grid">
 
-    <article>
-      <a href="bedtime-beats.html">
-        <img src="../images/bedtime-beats-thumb.jpg" alt="Screenshot of Bedtime Beats" width="320" height="180" loading="lazy">
-        <h3>Bedtime Beats</h3>
-      </a>
-      <p>For Tritonware Fall '24, I worked on an amazing rhythm game about a child trying to finish the last level before going to bed.</p>
-    </article>
+      <article class = "card">
+        <a href="fishing-with-goober.html">
+          <img src="../images/fishing-with-goober-thumb.png" alt="Screenshot of Fishing with Goober" width="320" height="180" loading="lazy">
+          <h3>Fishing with Goober</h3>
+        </a>
+        <p>For Tritonware Spring '25, I helped develop a fun physics-based game about catching flying fish.</p>
+      </article>
 
-    <article>
-      <a href="spoiled.html">
-        <img src="../images/spoiled-thumb.jpg" alt="Screenshot of Spoiled" width="320" height="180" loading="lazy">
-        <h3>Spoiled</h3>
-      </a>
-      <p>One of the biggest projects I've had a hand in, I worked in a 50-person team in this cooking game.... with a dark twist</p>
-    </article>
+      <article class = "card">
+        <a href="bedtime-beats.html">
+          <img src="../images/bedtime-beats-thumb.png" alt="Screenshot of Bedtime Beats" width="320" height="180" loading="lazy">
+          <h3>Bedtime Beats</h3>
+        </a>
+        <p>For Tritonware Fall '24, I worked on an amazing rhythm game about a child trying to finish the last level before going to bed.</p>
+      </article>
+
+  </div>
+
   </main>
+
 
   <footer>
     <p>&copy; 2026 Dzaiddin Khazani. All rights reserved.</p>

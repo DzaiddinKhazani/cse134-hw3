@@ -4,21 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Experiments with newer HTML elements: template, audio, video, source, and canvas.">
-  <title>Experiments | [Your Name]</title>
+  <title>Experiments | Dzaiddin Khazani</title>
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-  <style>
-    /* HW2 rule: borders only, to show base page structure */
-    header, nav, main, section, article, footer {
-      border: 1px solid;
-    }
-  </style>
+  <script src="scripts/hello-world.js" defer></script>
+  <link rel="stylesheet" href = "css/style.css">
 </head>
 <body>
 
-  <a href="#main">Skip to main content</a>
 
   <header>
-    <h1>[Your Name] <span>Game Developer &amp; Writer</span></h1>
+    <h1>Dzaiddin Khazani</h1>
 
     <nav aria-label="Primary">
       <ul>
@@ -89,11 +84,45 @@
       <canvas id="demo-canvas" width="300" height="150">
         Your browser does not support canvas. This is a drawing of an orange fish.
       </canvas>
+
+    </section>
+
+        <section>
+      <h3>Custom Elements</h3>
+      <p>
+        <code>page-intro</code> is a semantic, CSS-only element that wraps
+        the heading and introduction at the top of this page and of the
+        Projects and Articles pages.
+      </p>
+      <p>
+        <code>hello-world</code> prints a message to the browser console
+        without changing the page. Open your developer tools console to see
+        it.
+      </p>
+      <hello-world></hello-world>
+    </section>
+
+    <section>
+      <h3>MathML (Extra Credit)</h3>
+      <p>Einstein's mass-energy equivalence, written with MathML:</p>
+      <p>
+        <math display="block">
+          <mrow>
+            <mi>E</mi>
+            <mo>=</mo>
+            <mi>m</mi>
+            <msup>
+              <mi>c</mi>
+              <mn>2</mn>
+            </msup>
+          </mrow>
+        </math>
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+    <p>&copy; 2026 Dzaiddin. All rights reserved.</p>
     <p><a href="#main">Back to top</a></p>
   </footer>
 
