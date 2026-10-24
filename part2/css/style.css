@@ -215,6 +215,13 @@ svg {
   text-decoration: none;
 }
 
+main > article {
+  background: var(--color-surface);
+  border: 1px solid var(--color-accent-soft);
+  border-radius: var(--radius);
+  padding: calc(var(--space) * 1.5);
+}
+
 /* ===== 6. Media ===== */
 img,
 video,
