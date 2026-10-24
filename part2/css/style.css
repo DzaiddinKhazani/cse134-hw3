@@ -245,13 +245,27 @@ fieldset {
   background: var(--color-surface);
   padding: var(--space);
   margin: 0;
+  width: 100%;
+  min-width: none;
   max-width: 40rem;
+}
+
+fieldset p{
+    max-width: none;
 }
  
 legend {
   font-family: var(--font-heading);
   font-weight: bold;
-  padding: 0 0.5rem;
+  font-size: 1.15rem;
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 var(--space);
+}
+
+legend + p {
+    clear: both;
 }
  
 label {
